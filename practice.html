@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Random
+        </title>
+        <link rel="stylesheet" href="practicestyle.css">
+    </head>
+
+    <body>
+        <centre>
+        <div class="Main">
+            <h1>NUMBER GUESSING</h1>
+        <input id="INPUT">
+        <button onclick="clickaction()">Check</button>
+        <p id="ans">Number</p>
+        <p id="yourinp">Score</p>
+        </div>
+    </centre>
+    </body>
+
+    <script>
+        
+        
+        var answer=document.getElementById("ans")
+        var inp=document.getElementById("INPUT")
+        var scorevalue=document.getElementById("yourinp")
+        
+        var score=0
+        
+        function clickaction()
+        {
+            var ran=Math.ceil(Math.random()*10)
+            console.log(Math.ceil(ran))
+            if (inp.value == ran)
+            {
+            answer.textContent="you are right"
+            score=score+5
+            scorevalue.textContent=score
+            }
+            else
+            {
+                answer.textContent="you are wrong"
+                if (score>=3)
+                {
+                    score=score-3
+                    scorevalue.textContent=score
+                }
+                else
+                {
+                    score=0
+                }
+                
+            }
+        }
+    </script>
+</html>

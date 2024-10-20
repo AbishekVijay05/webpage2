@@ -1,0 +1,94 @@
+body{
+    background-image: url(clau-alexa-63EhFafADqI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navi{
+    text-align: left;
+    word-spacing: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+    margin-left: 15px;
+}
+.h,u1,li{
+    color: black;
+    display: inline;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    
+}
+.h{
+    background-color: rgba(52, 3, 3, 0.562);
+    border-radius: 25px;
+    padding: 25px 25px;
+
+}
+u1{
+    margin-left: 45%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 25px;
+    padding: 25px 25px;
+}
+li:hover{
+    opacity: 0.5;
+    font-size: 22px;
+
+}
+
+.text{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    opacity: 0.5;
+}
+.button{
+    background-color:  #008CBA;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    transition-duration: 0.5s;
+}
+.thala{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.562);
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+   
+}
+tr,th{
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  
+}
+td{
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  opacity: 0.5;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.emoji{
+    font-size: 50px;
+}
+.button:hover{
+    background-color: palevioletred;
+}

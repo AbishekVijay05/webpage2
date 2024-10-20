@@ -1,0 +1,43 @@
+body{
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10%;
+    background-image: url("wwdc-glowing-violet-6016x3384-19118.png");
+    background-attachment: fixed;
+    background-position: center;
+}
+button{
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: center;
+    
+    
+}
+input{
+    background-color: white;
+    border-radius: 5px;
+    border-style:none;
+    border-color: black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.Main{
+    background-color: rgba(255, 255, 255, 0.689);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+button:active{
+    background-color: green;
+}
